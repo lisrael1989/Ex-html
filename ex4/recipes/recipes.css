@@ -1,0 +1,39 @@
+.back-ex4 {
+  text-align: right;
+  text-decoration: none;
+  color: black;
+}
+
+.recipe-header {
+  text-align: center;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  width: 900px;
+  height: fit-content;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 30px;
+}
+
+img {
+  width: 350px;
+  height: 100%;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.info-section {
+  text-align: left;
+  margin-left: 15px;
+}
