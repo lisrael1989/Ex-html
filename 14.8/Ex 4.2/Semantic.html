@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic Ex 4.2</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="back" href="../../index.html">Go back to main page</a>
+      </nav>
+      <h1>Semantic Ex 4.2</h1>
+    </header>
+
+    <main>
+      <article>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+        praesentium, quas, voluptates voluptate, officiis dicta molestias
+      </article>
+
+      <form action="submit">
+        <div>
+          <label class="username-label" for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter your username"
+            required
+            maxlength="20"
+          />
+        </div>
+
+        <div>
+          <label for="Comment">Comment:</label>
+          <textarea
+            id="comment"
+            name="comment"
+            rows="4"
+            cols="50"
+            placeholder="Put your comment here..."
+          ></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <section>
+        <h2>FAQ</h2>
+        <details>
+          <summary>What is Semantic HTML?</summary>
+          <p>
+            Semantic HTML refers to the use of HTML tags that provide meaning to
+            the content they contain, improving both accessibility and search
+            engine optimization (SEO).
+          </p>
+        </details>
+        <details>
+          <summary>
+            What is the difference between &lt;section&gt; and &lt;div&gt;?
+          </summary>
+          <p>
+            The <code>&lt;section&gt;</code> element is a semantic HTML tag that
+            defines a section of content that typically contains a heading. It's
+            used to group related content together. On the other hand,
+            <code>&lt;div&gt;</code> is a generic container element that doesn't
+            have any semantic meaning; it’s used for styling or scripting
+            purposes.
+          </p>
+        </details>
+        <details>
+          <summary>Why should I use semantic HTML tags?</summary>
+          <p>
+            Using semantic HTML tags helps search engines understand the
+            structure and content of your webpage, improving SEO. It also
+            enhances accessibility, making it easier for screen readers to
+            navigate your site, and contributes to a more organized codebase.
+          </p>
+        </details>
+        <details>
+          <summary>What is the &lt;article&gt; tag used for?</summary>
+          <p>
+            The <code>&lt;article&gt;</code> tag is used to represent a
+            self-contained piece of content that could be independently
+            distributed or reused, such as a blog post, news article, or forum
+            post. Each <code>&lt;article&gt;</code> element should be a complete
+            piece of content that makes sense on its own.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <h1>footer</h1>
+    </footer>
+  </body>
+
+  <style>
+    label {
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    .username-label {
+      margin-top: 30px;
+    }
+
+    div {
+      margin-top: 30px;
+    }
+
+    button {
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+  </style>
+</html>
