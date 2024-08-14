@@ -1,71 +1,57 @@
-* {
+body {
+  text-align: center;
   font-family: 'Courier New', Courier, monospace;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgb(226, 223, 220);
-  position: sticky;
-  top: 0;
+  background-color: rgb(244, 220, 195);
+  border-radius: 1em;
 }
-
-body {
-  text-align: center;
+.name-header {
   margin: 0;
 }
 
-form {
-  padding: 20px;
+.name-header,
+.sub-header {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(52, 52, 52);
+  margin: 10px;
 }
 
-.logo {
-  margin-left: 10px;
+.button {
+  background-color: #190c8d;
+  color: #ffffff;
+  font-size: 1.3em;
+  font-weight: 600;
+  position: relative;
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 55px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 a {
-  margin-right: 10px;
   text-decoration: none;
-  color: rgb(158, 87, 0);
+  color: white;
 }
 
-h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.Recipes {
+.israel-img {
   display: flex;
-  gap: 20px;
-  margin-top: 20px;
-  justify-content: center;
-}
-
-.Recipe-card {
-  width: 200px;
-  border: 1px solid rgb(158, 87, 0);
-  box-shadow: 1px 1px 1px 1px rgb(158, 87, 0);
-  margin: 0;
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
-
-.About {
-  width: 600px;
-  margin: auto;
-}
-
-footer {
-  background-color: rgb(226, 223, 220);
-  height: 80px;
-  bottom: 0;
-}
-
-.copyright {
+  width: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
   text-align: center;
-  padding-top: 30px;
 }
 
 /* Social buttons */
@@ -73,9 +59,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(226, 223, 220);
+  background-color: rgb(244, 220, 195);
   padding: 15px 10px;
-  border-radius: 5em;
+  border-radius: 1em;
+  margin-top: 20px;
 }
 
 .social-button {
