@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms-Ex 2.1</title>
+  </head>
+  <a class="back" href="../../index.html">Go back to main page</a>
+  <body>
+    <header>
+      <h1>Create an Account</h1>
+    </header>
+
+    <form action="submit">
+      <label for="email">Email</label>
+      <br />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <br />
+      <label for="password">password</label>
+      <br />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter password"
+        minlength="8"
+        required
+      />
+
+      <br />
+      <label for="age">Age</label>
+      <br />
+      <input type="number" name="age" id="age" min="18" max="99" value="18" />
+      <br />
+      <label for="bio">Tell us a little about yourself:</label>
+      <br />
+      <textarea
+        id="bio"
+        name="bio"
+        rows="4"
+        cols="50"
+        placeholder="Tell us about yourself..."
+      ></textarea>
+
+      <br />
+      <input type="checkbox" name="newsletter" id="newsletter" />
+      <label for="newsletter"
+        >i agree to the <span>terms of service</span>
+      </label>
+
+      <div>
+        <button type="button">Sign Up</button>
+      </div>
+    </form>
+  </body>
+
+  <style>
+    * {
+      margin: 10px;
+      padding: 0;
+    }
+
+    label {
+      margin: 10px;
+    }
+
+    span {
+      text-decoration: underline;
+      color: blue;
+      margin: 0;
+    }
+    button {
+      margin-left: 0;
+    }
+  </style>
+</html>
